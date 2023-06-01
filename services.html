@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- viewport,mejora visualmente la pagina en dispositivos moviles-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Document</title>
+
+    <!-- vinculo el style-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+            <!--Este código crea una barra de navegación simple con un nombre de marca y cuatro enlaces de navegación. -->
+            <header class="container-nav">
+            
+                <!-- el atributo role="navigation" proporciona informacion adicional a las tecnologías de asistencia como lectores de pantalla para ayudar a los usuarios en condición de discapacidad a navegar y comprender mejor el contenido de tu sitio web.-->
+                <nav class="navbar" role="navigation">
+                    <a href="index.html.html" class="brand">Mi página web</a>
+                    <ul class="nav-links">
+                        <li><a href="index.html.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            
+                <button class="button-menu-toggle">Menu</button>
+            </header>
+            
+            <main class="container">
+                <div class="container">
+                    <h1>Nuestros servicios</h1>
+                    <p>Descubre aquí los servicios que ofrecemos.</p>
+                    <ul>
+                        <li>Servicio 1</li>
+                        <li>Servicio 2</li>
+                        <li>Servicio 3</li>
+                    </ul>
+                </div>
+            </main>
+            
+            <footer>
+                <!--El atributo “aria-label” proporciona una etiqueta alternativa para el botón que es leída por las tecnologías de asistencia, como lectores de pantalla, para mejorar la accesibilidad-->
+                <button onclick="showAlert()" aria-label="Haz clic en mi">¡Haz clic en mi!</button>
+                <h3>Saludos!Muchas Gracias</h3>
+             </footer>
+
+   
+        <script src="script.js"></script>
+    </body>
+
+</html>
